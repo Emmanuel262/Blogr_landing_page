@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./utils/css/style.css">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; z-index: 100; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header" id="header">
+    <img src="./utils/images/bg-pattern-intro.svg" alt="" class="header-bg">
+    <nav class="nav flex" id="nav">
+      <img src="./utils/images/icon-hamburger.svg" alt="" class="humberger">
+      <div class="nav_logo">
+        <img src="./utils/images/logo.svg" alt="Blogger page" class="main-logo">
+      </div>
+      <div class="nav_one flex">
+        <ul class="nav_list flex">
+          <li class="list">
+            <h5 class="open_list">
+              <small>Product</small>
+              <i class="fas fa-chevron-down"></i>
+            </h5>
+            <ul class="sub_list">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+          </li>
+          <li class="list">
+            <h5 class="open_list">
+              <small>Company</small>
+              <i class="fas fa-chevron-down"></i>
+            </h5>
+            <ul class="sub_list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
+          <li class="list">
+            <h5 class="open_list">
+              <small>Connect</small>
+              <i class="fas fa-chevron-down"></i>
+            </h5>
+            <ul class="sub_list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav_two flex">
+          <a href="#" class="btn btn_colorless">Login</a>
+          <a href="#" class="btn btn_outline">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+    <div class="secondary_nav">
+      <h1 class="primary_text">A modern publishing platform</h1>
+      <p class="header_text">Grow your audience and build your online brand</p>
+      <div class="buttons">
+        <a href="#" class="btn btn_outline">Start for Free</a>
+        <a href="#" class="btn btn_white">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="design_future">
+    <div class="container">
+      <h2 class="txt_center">Designed for the future</h2>
+      <div class="container_contents grid">
+        <div class="left_contents">
+          <div class="contents_one_left">
+            <h2>Introducing an extensible editor</h3>
+            <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="contents_two_left">
+            <h2>Robust content management</h3>
+            <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.            
+            </p>
+          </div>
+        </div>
+        <div class="right_contents">
+          <img src="./utils/images/illustration-editor-desktop.svg" alt="" class="future_image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blue_container-req">
+    <div class="container">
+      <div class="contents_contains_b grid">
+        <div class="left_image">
+          <img src="./utils/images/illustration-phones.svg" alt="blogr mobile images" class="blog_img">
+        </div>
+        <div class="left_contents_b">
+          <h2>
+            State of the Art Infrastructure
+          </h2>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.          
+          </p>            
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pre_footer">
+    <div class="container">
+      <div class="contents_c grid">
+        <div class="contents_image">
+          <img src="./utils/images/illustration-laptop-desktop.svg" alt="pre_footer image" class="pre_footer_img">
+        </div>
+        <div class="right_contents_c">
+          <div class="right_content">
+            <h2>Free, open, simple</h2>
+            <p>  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+            </p>
+          </div>
+          <div class="right_content">
+            <h2>owerful tooling</h2>
+            <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sit</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-contents flex">
+        <div class="footer-logo">
+          <img src="./utils/images/logo.svg" alt="">
+        </div>
+        <div class="footer_list_one">
+          <h5>Product</h5>
+          <ul>
+            <li>
+              <a href="#">Overview</a>
+              <a href="#">Pricing</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Features</a>
+              <a href="#">Integrations</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_list_one">
+          <h5>Company</h5>
+          <ul>
+            <li>
+              <a href="#">About</a>
+              <a href="#">Team</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_list_one">
+          <h5>Connect</h5>
+          <ul>
+            <li>
+              <a href="#">Contact</a>
+              <a href="#">Newsletter</a>
+              <a href="#">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./utils/js/script.js"></script>
+</body>
+</html>
