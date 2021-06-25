@@ -752,6 +752,9 @@ header {
         left: 50%;
         transform: translateX(-50%);
     }
+    header {
+        height: 70vh;
+    }
     .right_contents {
         margin-top: 5rem;
     }
@@ -811,7 +814,7 @@ header {
     header {
         width: 101%;
         padding: 1rem 2rem;
-        height: 50vh;
+        height: 70vh;
     }
 }
 
