@@ -587,6 +587,7 @@ header {
         color: var(--very_dark_desaturatedBlue);
         font-weight: 700;
         font-size: 1.1rem;
+        margin-top: 1rem;
     }
     .nav_two {
         width: 100%;
